@@ -67,8 +67,6 @@ def fraud_detection_train(file_path):
             }
         }
 
-
-
     joblib.dump(artifact, model_path)
 
     print(f"\nModel saved to: {model_path}")
